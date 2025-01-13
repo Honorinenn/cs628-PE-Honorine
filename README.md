@@ -13,5 +13,7 @@ In the command line rum "npm start" and it starts a development server, it then 
 # Output
 The output is a responsive, visually styled webpage that displays the user's resume as shown in the screenshot below:
 
+![alt text](Resume.png)
+
 
 
