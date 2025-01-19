@@ -12,7 +12,7 @@ This data is rendered in semantic sections such as div, h1, p:This is done using
 React rendering is done by App.js integrating the Resume components. The browser then loads and renders the resume data.
 In the command line rum "npm start" and it starts a development server, it then processes the React code using Webpack, which bundles it for a live rendering.
 
-# Output
+## Output
 The output is a responsive, visually styled webpage that displays the user's resume as shown in the screenshot below:
 
 ![alt text](Resume.png)
