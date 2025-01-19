@@ -1,9 +1,9 @@
 # cs628-PE-Honorine
 
-# 1) PE01-Resume
+## 1) PE01-Resume
 This application is a web application of a resume. This app can be explained using the Input-Process-Output (IPO) model:
 
-# Input 
+## Input 
 Use "npx create-react-app" to create the client side. Create and configure Resume.js and Resume.css in the src directory. Styling is done in Resume.css with the background color being rgba(#bdfb04).
 
 ## Process
@@ -16,6 +16,8 @@ In the command line rum "npm start" and it starts a development server, it then 
 The output is a responsive, visually styled webpage that displays the user's resume as shown in the screenshot below:
 
 ![alt text](Resume.png)
+
+
 
 
 #  2) PE02-MovieList
