@@ -55,3 +55,32 @@ The for the various scenarios is illustrated as follows:
 -When user filters based on the genre, application should filter the movie list and this is illustratedin the image below:
 
 ![based_genre](https://github.com/user-attachments/assets/2fa6550f-595a-4966-a88f-805ea1cd5e1f)
+
+
+
+
+#  3) PE03-TodoList 
+The TodoList web app is a task management application. 
+
+## Input
+
+-The ToDo List App allows users to enter a task description using an input field. 
+-When the user types a task and clicks the "Add Task" button, the application captures the input and updates the list of tasks. 
+-Each task is displayed with a "Delete" button. This allows users to remove tasks from the list.
+
+## Process
+
+-The application is built using React and manages state with the useState hook. 
+-When a user adds a task, it is appended to an array of tasks stored in the state. 
+-Clicking the "Delete" button removes the corresponding task from the list by filtering the tasks array. 
+-The app dynamically renders the updated task list using the .map() function.
+-Component-based architecture is utilized, with separate components for task input, task list, and individual tasks.
+
+## Output
+
+-The application displays a list of tasks entered by the user and each task appears with a "Delete" button for removal.
+-When a task is added, it is immediately shown in the list. Upon deletion, the task is removed instantly. 
+-The app provides a responsive and interactive user interface for managing tasks efficiently as shown in the screenshot of the result:
+
+
+![TodolistAPP](https://github.com/user-attachments/assets/0f97e943-8040-4475-9877-96cc067bef81)
