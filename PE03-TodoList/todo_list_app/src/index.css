@@ -1,0 +1,36 @@
+.container {
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+.input-box {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.add-btn {
+  padding: 8px 16px;
+  background: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f4f4f4;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
