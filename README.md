@@ -84,3 +84,42 @@ The TodoList web app is a task management application.
 
 
 ![TodolistAPP](https://github.com/user-attachments/assets/0f97e943-8040-4475-9877-96cc067bef81)
+
+
+
+#  4) PE04-Cities
+The cities web application is a react application that gives information about cities the USA and its population.
+
+
+## Input
+-To interact with this app users need to provide data such as a city's name, country, population, and other details when adding a new city. 
+-Moreover, they can click on a city in the cities list to view detailed information. 
+-Input is processed through user forms and clickable links.
+
+
+## Process
+-When the data is entered or by clicking on a city, the application routes the user to the corresponding page using React Router. 
+-When a city is added, the user’s input is captured and stored in the application’s state.
+-The useParams hook is used to dynamically fetch and display the details of the selected city.
+-After adding a city, redirection occurs, which brings the user back to the cities list.
+
+
+## Output
+-The application ensures smooth navigation through these interactions as shown below:
+
+
+![PE04_Cities_01](https://github.com/user-attachments/assets/51d25fe9-6ac6-4c26-ac46-2e556ebbe8cc)
+
+
+ 
+-After adding a city, the list updates, and after redirection, the user is brought back to the cities list view as shown in the following image:
+
+
+![PE04_Cities_02](https://github.com/user-attachments/assets/75c06b1a-a152-487b-9e35-f60ffddf4a01)
+
+
+
+-The output includes a dynamically updated cities list, with each city showing its relevant details in a visually appealing layout which is shown in the image below:
+
+
+![PE04_Cities_03](https://github.com/user-attachments/assets/83d2416b-31c4-456d-8346-ee45d6fbe230)
