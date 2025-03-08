@@ -25,7 +25,7 @@ export default function RecipeList() {
   // Fetch recipes from the database
   useEffect(() => {
     async function getRecipes() {
-      const response = await fetch("Replace your API URL/recipes");
+      const response = await fetch("https://crispy-halibut-rvr64949g4x3pgw4-5050.app.github.dev/recipe");
 
       if (!response.ok) {
         const message = `An error occurred: ${response.statusText}`;
@@ -42,7 +42,7 @@ export default function RecipeList() {
 
   // Delete a recipe
   async function deleteRecipe(id) {
-    await fetch(`Replace your API URL/recipes/${id}`, {
+    await fetch(`https://crispy-halibut-rvr64949g4x3pgw4-5050.app.github.dev/recipe/${id}`, {
       method: "DELETE",
     });
 

@@ -23,7 +23,7 @@ export default function AddRecipe() {
 
     const newRecipe = { ...form, ingredients: form.ingredients.split(",") };
 
-    await fetch("Replace your API URL/recipes", {
+    await fetch("https://crispy-halibut-rvr64949g4x3pgw4-5050.app.github.dev/recipes", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
