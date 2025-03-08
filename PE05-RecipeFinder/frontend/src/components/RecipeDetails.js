@@ -8,7 +8,7 @@ export default function RecipeDetails() {
 
   useEffect(() => {
     async function fetchRecipe() {
-      const response = await fetch(`https://crispy-halibut-rvr64949g4x3pgw4-5050.app.github.dev/recipes/${id}`);
+      const response = await fetch(`https://special-succotash-jw47j6jvx9jfr4x-5050.app.github.dev/recipe/${id}`);
 
       if (!response.ok) {
         const message = `An error has occurred: ${response.statusText}`;

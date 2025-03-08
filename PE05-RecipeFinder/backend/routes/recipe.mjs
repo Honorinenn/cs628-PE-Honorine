@@ -1,8 +1,23 @@
 import express from "express";
 import db from "../db/conn.mjs";
+import cors from "cors";
 import { ObjectId } from "mongodb";
 
 const router = express.Router();
+
+//const express = require('express');
+//const cors = require('cors');
+const app = express();
+
+// Configure CORS (replace with your actual GitHub Pages URL)
+const corsOptions = {
+  origin: 'https://special-succotash-jw47j6jvx9jfr4x-5050.app.github.dev',
+  methods: 'GET, POST, PUT, DELETE, OPTIONS',
+  allowedHeaders: 'Content-Type, Authorization, Origin, X-Requested-With, Accept',
+};
+
+app.use(cors(corsOptions));
+
 
 // This section will help you get a list of all the recipes.
 router.get("/", async (req, res) => {

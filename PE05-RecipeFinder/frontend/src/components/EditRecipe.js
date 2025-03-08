@@ -16,7 +16,7 @@ export default function EditRecipe() {
   useEffect(() => {
     async function fetchData() {
       const id = params.id.toString();
-      const response = await fetch(`https://crispy-halibut-rvr64949g4x3pgw4-5050.app.github.dev/recipes/${id}`);
+      const response = await fetch(`https://special-succotash-jw47j6jvx9jfr4x-5050.app.github.dev/recipe/${id}`);
 
       if (!response.ok) {
         const message = `An error has occurred: ${response.statusText}`;
@@ -47,7 +47,7 @@ export default function EditRecipe() {
     e.preventDefault();
     const editedRecipe = { ...form, ingredients: form.ingredients.split(",") };
 
-    await fetch(`https://crispy-halibut-rvr64949g4x3pgw4-5050.app.github.dev/recipes/${params.id}`, {
+    await fetch(`hhttps://special-succotash-jw47j6jvx9jfr4x-5050.app.github.dev/recipe/${params.id}`, {
       method: "PATCH",
       body: JSON.stringify(editedRecipe),
       headers: {
