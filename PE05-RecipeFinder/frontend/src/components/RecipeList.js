@@ -25,8 +25,8 @@ export default function RecipeList() {
   // Fetch recipes from the database
   useEffect(() => {
     async function getRecipes() {
-      const response = await fetch("https://special-succotash-jw47j6jvx9jfr4x-5050.app.github.dev/recipe");
-
+      const response = await fetch("https://literate-spork-xr67g955xqj2v54w-5050.app.github.dev/recipe");
+      console.log(response.text)
       if (!response.ok) {
         const message = `An error occurred: ${response.statusText}`;
         window.alert(message);

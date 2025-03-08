@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom"; // No need for BrowserRouter here
 import "bootstrap/dist/css/bootstrap.css";
 
 
@@ -11,7 +11,6 @@ import CreateRecipe from "./components/CreateRecipe";
 
 const App = () => {
   return (
-    <Router>
       <div>
         <Navbar />
         <Routes>
@@ -21,7 +20,6 @@ const App = () => {
           <Route path="/create" element={<CreateRecipe />} />
         </Routes>
       </div>
-    </Router>
   );
 };
 
