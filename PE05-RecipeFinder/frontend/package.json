@@ -16,7 +16,7 @@
     "ws": "^8.18.1"
   },
   "scripts": {
-    "start": "PORT=3001 react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -38,5 +38,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "https://sturdy-train-qg947r7r7v4h4vqg-3000.app.github.dev/" 
 }

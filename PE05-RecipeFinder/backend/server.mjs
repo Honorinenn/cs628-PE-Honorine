@@ -1,4 +1,4 @@
-/*import express from "express";
+import express from "express";
 import cors from "cors";
 import "./loadEnvironment.mjs";
 import recipes from "./routes/recipe.mjs";
@@ -14,9 +14,9 @@ app.use("/recipe", recipes);
 // start the Express server
 app.listen(PORT, () => {
   console.log(`Server is running on port: ${PORT}`);
-});*/
+});
 
-import express from "express";
+/*import express from "express";
 import cors from "cors";
 import { WebSocketServer } from "ws"; // Import WebSocket library
 import http from "http"; // Import HTTP module to attach WebSocket
@@ -56,3 +56,4 @@ wss.on("connection", (ws) => {
 server.listen(PORT, () => {
   console.log(`Server is running on port: ${PORT}`);
 });
+*/
