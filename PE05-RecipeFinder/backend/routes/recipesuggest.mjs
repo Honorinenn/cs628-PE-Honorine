@@ -6,13 +6,15 @@ import { ObjectId } from "mongodb";
 const app = express();
 app.use(express.json()); // Add middleware to parse JSON body
 
-// CORS configuration
-const corsOptions = {
-    origin: 'https://special-succotash-jw47j6jvx9jfr4x-5050.app.github.dev',
-    methods: 'GET, POST, PUT, DELETE, OPTIONS',
-    allowedHeaders: 'Content-Type, Authorization, Origin, X-Requested-With, Accept',
-};
-app.use(cors(corsOptions));
+// // CORS configuration
+// const corsOptions = {
+//     origin: 'https://literate-spork-xr67g955xqj2v54w-5050.app.github.dev',
+//     methods: 'GET, POST, PUT, DELETE, OPTIONS',
+//     allowedHeaders: 'Content-Type, Authorization, Origin, X-Requested-With, Accept',
+// };
+// app.use(cors(corsOptions));
+
+app.use(cors());
 
 const router = express.Router();
 

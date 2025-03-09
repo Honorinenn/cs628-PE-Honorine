@@ -10,13 +10,16 @@ const router = express.Router();
 const app = express();
 
 // Configure CORS (replace with your actual GitHub Pages URL)
-const corsOptions = {
-  origin: 'https://special-succotash-jw47j6jvx9jfr4x-5050.app.github.dev',
-  methods: 'GET, POST, PUT, DELETE, OPTIONS',
-  allowedHeaders: 'Content-Type, Authorization, Origin, X-Requested-With, Accept',
-};
+// const corsOptions = {
+//   origin: 'https://literate-spork-xr67g955xqj2v54w-5050.app.github.dev',
+//   methods: 'GET, POST, PUT, DELETE, OPTIONS',
+//   allowedHeaders: 'Content-Type, Authorization, Origin, X-Requested-With, Accept',
+// };
 
-app.use(cors(corsOptions));
+
+// app.use(cors(corsOptions));
+
+app.use(cors())
 
 
 // This section will help you get a list of all the recipes.
