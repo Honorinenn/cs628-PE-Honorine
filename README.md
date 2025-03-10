@@ -111,6 +111,7 @@ The cities web application is a react application that gives information about c
 ![PE04_Cities_01](https://github.com/user-attachments/assets/51d25fe9-6ac6-4c26-ac46-2e556ebbe8cc)
 
 
+
  
 -After adding a city, the list updates, and after redirection, the user is brought back to the cities list view as shown in the following image:
 
@@ -123,3 +124,48 @@ The cities web application is a react application that gives information about c
 
 
 ![PE04_Cities_03](https://github.com/user-attachments/assets/83d2416b-31c4-456d-8346-ee45d6fbe230)
+
+
+
+
+
+#  5) PE05-RecipeFinder
+
+##  Input
+The Recipe Finder application allows users to interact with recipes through various input mechanisms. Users can:
+- Enter new recipes by providing details such as name, ingredients, and cooking instructions via an input form.
+- Click on a recipe from the list to view detailed information.
+- Edit an existing recipe by modifying its details.
+- Delete a recipe by selecting the appropriate option.
+- Navigate between different pages using the UI, powered by React Router.
+
+
+## Process
+The application processes user input through the following steps:
+- Front-end Handling: The React-based UI captures user input and sends requests to the backend.
+- Backend Processing: The Node.js and Express server handles CRUD (Create, Read, Update, Delete) operations.
+- Database Operations: The MongoDB Atlas database stores and retrieves recipe data via the MongoDB Node.js driver.
+- Routing & State Management: React Router ensures seamless navigation, while API responses update the UI dynamically.
+
+
+## Output
+The application provides the following outputs:
+- A list of stored recipes displayed on the homepage.
+
+
+
+  ![RecipeList](https://github.com/user-attachments/assets/2964608b-39f3-4ff7-82f2-9e4080925970)
+
+
+
+- Visual confirmation when a recipe is added, updated, or deleted. 
+
+  
+
+![Add_recipe](https://github.com/user-attachments/assets/65ca31c7-d109-429d-a549-2edabb1d627f)
+
+
+
+![Update_Recipe](https://github.com/user-attachments/assets/284350ec-7951-458a-a28f-a0e8a46cd2bc)
+
+
