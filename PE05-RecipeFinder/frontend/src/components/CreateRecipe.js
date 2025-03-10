@@ -23,7 +23,7 @@ export default function AddRecipe() {
 
     const newRecipe = { ...form, ingredients: form.ingredients.split(",") };
 
-    await fetch("https://literate-spork-xr67g955xqj2v54w-3000.app.github.dev/recipes", {
+    await fetch("https://legendary-couscous-67r5969qjrqc4qjj-3000.app.github.dev/recipes", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
